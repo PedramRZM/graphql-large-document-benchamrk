@@ -1,0 +1,13 @@
+{
+  "name": "graphql-large-document-benchmark",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "mercurius-fastify"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "ts-node": "9.1.1"
+  }
+}
