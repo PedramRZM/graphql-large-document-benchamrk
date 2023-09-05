@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "workspaces": [
     "mercurius-fastify",
-    "apollo-server-express"
+    "apollo-server-express",
+    "mercurius-fastify-jit"
   ],
   "license": "MIT",
   "devDependencies": {

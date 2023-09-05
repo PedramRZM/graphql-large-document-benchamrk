@@ -28,12 +28,13 @@ const main = async () => {
     schema: typeDefs,
     resolvers: resolvers,
     graphiql: true,
+    jit: 1,
   });
 
-  await app.listen({ port: 4000 });
+  await app.listen({ port: 4002 });
 
   console.log(
-    "Mercurius + Fastify graphql server started at http://localhost:4000/graphiql"
+    "Mercurius + Fastify + jit graphql server started at http://localhost:4002/graphiql"
   );
 };
 
